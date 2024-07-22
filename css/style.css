@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #fff;
+    color: #2a2774;
+    padding: 0rem 2rem;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25)
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #2a2774;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #fa8800;
+}
+
+section {
+    padding: 2rem 2rem;
+    text-align: center;
+
+}
+.home1{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    text-align: left;
+}
+
+#home {
+    background: #1A3557;
+    color: #fff;
+    font-size: 1.5em;
+}
+h1{
+    font-size: 3em;
+    font-weight: 700;
+    font-family: "montserrat" sans sans-serif;
+}
+
+#home .button {
+    display: inline-block;
+    margin-top: 2.5rem;
+    padding: 0.5rem 1rem;
+    background: #fa8800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.home1 img{
+    border-radius: 50%;
+    width: 600px;
+}
+
+#about img {
+    max-width: 600px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.section2 p{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 2.2em;
+    font-family: "montserrat" sans-serif;
+    font-weight: 600;
+    color: #2a2774;
+    padding-bottom: 1.2em;
+}
+
+/* .section2{
+    flex-direction: row-reverse;
+    
+} */
+
+.project, .blog-post {
+    margin-bottom: 2rem;
+}
+
+.project .button, .blog-post .button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #fa8800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background: #fa8800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+form button:hover {
+    background: #2a2774;
+}
+
+footer {
+    background: #2a2774;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+footer ul li {
+    margin: 0 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer ul li img{
+    height: 30px;
+    width: 30px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
