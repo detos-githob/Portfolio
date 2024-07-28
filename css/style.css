@@ -49,7 +49,11 @@ nav ul li a:hover {
     text-decoration: underline;
     color: #fa8800;
 }
-
+header{
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+}
 section {
     padding: 2rem 2rem;
     text-align: center;
@@ -60,6 +64,7 @@ section {
     justify-content: space-between ;
     align-items: center;
     text-align: left;
+    padding-top: rem;
 }
 
 #home {
@@ -71,6 +76,7 @@ h1{
     font-size: 3em;
     font-weight: 700;
     font-family: "montserrat" sans sans-serif;
+    padding-top: 6rem;
 }
 
 #home .button {
@@ -81,6 +87,11 @@ h1{
     color: #fff;
     text-decoration: none;
     border-radius: 30px;
+}
+
+#home .button:hover{
+    background-color:#2a2774;
+    box-shadow: 0px 4px 4px #e12026;
 }
 .home1 img{
     border-radius: 50%;
@@ -103,6 +114,35 @@ h2{
     padding-bottom: 1.2em;
 }
 
+h3{
+    font-size: 1.8em;
+    font-family: "montserrat" sans-serif;
+    font-weight: 500;
+    color: #2a2774;
+    padding-bottom: 1em;
+}
+
+#skills ul li{
+    font-size: 1.5em;
+}
+
+#projets p{
+    font-size: 1.5em;
+}
+
+#blog p{
+    font-size: 1.5em;
+}
+
+#contact p{
+    font-size: 1.5em;
+}
+
+#contact form label{
+    font-size: 1.5em;
+}
+
+
 /* .section2{
     flex-direction: row-reverse;
     
@@ -122,6 +162,43 @@ h2{
     border-radius: 30px;
 }
 
+.project .button:hover{
+    background-color: #2a2774;
+    box-shadow: 0px 4px 4px #e12026;
+}
+.blog-post .button:hover{
+    background-color: #2a2774;
+    box-shadow: 0px 4px 4px #e12026;
+}
+
+.div .bas, .div .jo, .div .sego,.div .denis, .div .baud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div img{
+    width: 350px;
+    height: 350px;
+    border-color: #2a2774;
+}
+
+.div .bas{
+    padding-bottom: 2.5rem;
+}
+.div .jo{
+    padding-bottom: 2.5rem;
+}
+.div .denis{
+    padding-bottom: 2.5rem;
+}
+
+.div .sego{
+    padding-bottom: 2.5rem;
+}
+
+section .div .sego .visit{
+    height: 200px;
+}
 ul {
     list-style: none;
 }
@@ -191,3 +268,62 @@ footer ul li img{
 footer ul li a:hover {
     text-decoration: underline;
 }
+
+.icon{
+    display: none;
+}
+
+/* debut style media querry */
+
+@media screen and (max-width: 426px) {
+    
+    nav ul{
+        display: none;
+    }
+
+    h1{
+        font-size: 2em;
+        padding-bottom: 1.5em;
+    }
+
+    .icon{
+        display: flex;
+        font-size: 3rem;
+        padding-top: 0.8rem;
+        color: #2a2774;
+    }
+    .home1{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home1 img{
+        width: 90%;
+    }
+
+    img{
+        width: 90%;
+    }
+
+    .section2 img{
+        width: 100%;
+    }
+    .div .bas, .div .jo, .div .sego,.div .denis, .div .baud{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+/* fin style media querry */
